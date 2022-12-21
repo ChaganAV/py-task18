@@ -13,16 +13,17 @@ def Valid(x, num, raz):
 
 min = 0
 min1 = 1
-max = 5
+max = 10
 try:
-    N = 22//2
-    # N = int(input("Введите размер массива: "))//2
+    # N = 22//2
     # X = random.randint(min,max)
-    # X = int(input("Введите число поиска: "))
-    X = 6
+    # X = 6
+    # numbers = [3, 3, 4, 5, 2, 3, 4, 1, 7, 8, 2]
+    N = int(input("Введите размер массива: "))//2
+    X = int(input("Введите число поиска: "))
     print(X)
-    # numbers = []
-    numbers = [3, 3, 4, 5, 2, 3, 4, 1, 7, 8, 2]
+    numbers = []
+    
     for num in range(min,N):
         numbers.append(random.randint(min1,max))
     razn = X
